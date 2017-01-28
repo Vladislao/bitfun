@@ -39,7 +39,7 @@ You can put constants to separate file and import them as you wish.
 
 ## Examples
 
-Just look through [tests](./index.tests.js). They are simple and covers most of use cases.
+Just look through [tests](./index.test.js). They are simple and covers most of use cases.
 
 ## API
 
