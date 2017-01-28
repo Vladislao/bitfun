@@ -1,0 +1,27 @@
+{
+  "name": "bitfun",
+  "version": "1.0.0",
+  "description": "Functions for manipulating bitmasks as numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter spec index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladislao/bitfun.git"
+  },
+  "keywords": [
+    "bitmask"
+  ],
+  "author": "vladislao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vladislao/bitfun/issues"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "istanbul": "0.4.5",
+    "mocha": "2.5.3"
+  },
+  "homepage": "https://github.com/Vladislao/bitfun#readme"
+}
