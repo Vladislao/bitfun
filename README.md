@@ -22,7 +22,6 @@ const mask = bitfun.add(1, [1,2]) // mask equlas 3
 
 ```javascript
 import * as bitfun from 'bitfun';
-import { rights } from './constants';
 
 const rights = {
   NONE: 0,
