@@ -1,7 +1,7 @@
 # bitfun
-Functions for manipulating bitmasks as numbers. 
+Functions for manipulating bitmasks as numbers. Deterministic, without side effects.
 
-## Instalation
+## Installation
 
 ```javascript
 npm i bitfun -S
@@ -13,7 +13,7 @@ npm i bitfun -S
 import * as bitfun from 'bitfun';
 
 ...
-const mask = bitfun.add(1, [1,2]) // mask equlas 3
+const mask = bitfun.add(1, [1,2]) // mask equals 3
 ...
 ```
 
@@ -38,13 +38,13 @@ You can put constants to separate file and import them as you wish.
 
 ## Examples
 
-Just look through [tests](./index.test.js). They are simple and covers most of use cases.
+Just look through [tests](./index.test.js). They are simple and cover most of use cases.
 
 ## API
 
-* fromArray - get some
-* add - add bits to existing map
-* remove - remove bits from existing map
+* fromArray - returns new bitmask from specified array
+* add - method adds bits to an existing map, returns new bitmask
+* remove - method removes bits from an existing map, returns new bitmask
 * equlas - returns true if mask includes only specified bits
 * includes - returns true if mask includes all of the specified bits
 * excludes - returns true if mask includes some or none of the specified bits
