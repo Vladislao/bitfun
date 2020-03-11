@@ -1,13 +1,13 @@
 const add = exports.add = (mask, flags) => {
   if (mask === undefined || mask === null) mask = 0;
-  if (!flags.length) return mask;
-  return flags.reduce((acc, f) => acc | f, mask);
+  const flagsArr = Array.isArray(flags) ? flags : [flags];
+  return flagsArr.reduce((acc, f) => acc | f, mask);
 };
 
 const remove = exports.remove = (mask, flags) => {
   if (mask === undefined || mask === null) return 0;
-  if (!flags.length) return mask;
-  return flags.reduce((acc, f) => acc & ~f, mask);
+  const flagsArr = Array.isArray(flags) ? flags : [flags];
+  return flagsArr.reduce((acc, f) => acc & ~f, mask);
 };
 
 const fromArray = exports.fromArray = (flags) => add(0, flags);

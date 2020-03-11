@@ -43,6 +43,10 @@ describe('bitmask', () => {
       const res3 = bitmask.add(null, [1, 2]);
       expect(res3).to.be.eql(3);
     });
+    it('should handle single value', () => {
+      const res = bitmask.add(2, 1);
+      expect(res).to.be.eql(3);
+    });
   });
 
   describe('remove', () => {
@@ -72,6 +76,10 @@ describe('bitmask', () => {
     it('should handle undefined', () => {
       const res = bitmask.remove(undefined, []);
       expect(res).to.be.eql(0);
+    });
+    it('should handle single value', () => {
+      const res = bitmask.remove(3, 1);
+      expect(res).to.be.eql(2);
     });
   });
 
