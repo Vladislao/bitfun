@@ -21,7 +21,7 @@
   "devDependencies": {
     "chai": "3.5.0",
     "istanbul": "0.4.5",
-    "mocha": "2.5.3"
+    "mocha": "^7.1.0"
   },
   "homepage": "https://github.com/Vladislao/bitfun#readme"
 }
