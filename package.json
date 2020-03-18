@@ -1,6 +1,6 @@
 {
   "name": "bitfun",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Functions for manipulating bitmasks as numbers",
   "main": "dist/index.js",
   "browserslist": "> 0.25%, not dead",
