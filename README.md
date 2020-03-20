@@ -71,7 +71,7 @@ Creates array of flags from specified bitmask.
 
 ```javascript
 > bitfun.toArray(5)         101
-< [1,4]                     01,100
+< [1,4]                     001,100
 ```
 
 ```javascript
