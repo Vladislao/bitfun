@@ -28,7 +28,7 @@
     "@babel/preset-env": "^7.8.7",
     "chai": "3.5.0",
     "istanbul": "0.4.5",
-    "mocha": "^7.1.0",
+    "mocha": "^10.2.0",
     "prettier": "^1.19.1"
   },
   "homepage": "https://github.com/Vladislao/bitfun#readme"
